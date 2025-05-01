@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    background-image: url("sky.jpeg");
+    background-size: cover;
+}
+
+.curr-city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 20.5rem;
+    margin-top: 1.5rem;
+}
+
+.curr-city-weather-icon{
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+}
+
+.curr-city-weather-icon img{
+    height: 15rem;
+    width: 15rem;
+}
+
+.another-city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cities{
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+p {
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.weather-icon{
+    height: 8rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.weather-icon img{
+    height: 8rem;
+    width: 8rem;
+}
+
+input{
+    width: 40%;
+    height: 30px;
+    border: none;
+    box-shadow: 0 0 10px black;;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    opacity: 1;
+    background: transparent;
+    margin-top: 3rem;
+    color: rgb(196, 196, 196);
+}
+
+input::placeholder {
+    color: rgb(196, 196, 196);
+}
+
+button {
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    background-color: #fde2c5;
+    font-size: 0.87rem;
+}
