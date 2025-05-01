@@ -1,2 +1,2 @@
 # About
-this is my first weather app
+This is my first weather app
